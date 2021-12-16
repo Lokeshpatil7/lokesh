@@ -4,7 +4,6 @@ export default class Footer extends Component {
   render() {
     return (
       <>
-        <p>Footer</p>
         <div className="container">
           <div className="row">
             <div className="col-4 col-lg-2"></div>
@@ -45,22 +44,29 @@ export default class Footer extends Component {
                       </Link>
                     </li>
                   </ul>
-                  <form className="d-flex">
-                    <input
-                      className="form-control me-2"
-                      type="search"
-                      placeholder="Search"
-                      aria-label="Search"
-                    ></input>
-                    <button className="btn btn-outline-success" type="submit">
-                      Search
-                    </button>
-                  </form>
                 </div>
               </div>
             </nav>
           </div>
         </div>
+        {/* <footer>
+          <nav>
+            <div class="logo">
+              <h1 class="animated infinite heartBeat">
+                {" "}
+                <a href="./ContactandAbout/About.html">
+                  to Share your experience click here
+                </a>
+              </h1>
+            </div>
+            <div class="menu">
+              <a href="./cities/WEB2.HTML">Gallery</a>
+              <a href="./ContactandAbout/About.html">About</a>
+              <a href="./ContactandAbout/contact.html">Contact</a>
+              <a href="./webpg.html">Home</a>
+            </div>
+          </nav>
+        </footer> */}
       </>
     );
   }

@@ -6,66 +6,70 @@ export default class Customer extends Component {
       <>
         <h2>(Customer) Enter Your Details</h2>
         <br />
-        <form className="row g-3">
-          <div class="col-md-3">
-            <label for="name" class="form-label">
+        <form className="align">
+          <div className="col-md-3">
+            <label for="name" className="form-label">
               First Name
             </label>
             <input type="text" class="form-control" id="name" />
           </div>
 
-          <div class="col-md-3">
-            <label for="name" class="form-label">
+          <div className="col-md-3">
+            <label for="name" className="form-label">
               Middle Name
             </label>
-            <input type="text" class="form-control" id="name" />
+            <input type="text" className="form-control" id="name" />
           </div>
 
-          <div class="col-md-3">
-            <label for="name" class="form-label">
+          <div className="col-md-3">
+            <label for="name" className="form-label">
               Last Name
             </label>
-            <input type="text" class="form-control" id="name" />
+            <input type="text" className="form-control" id="name" />
           </div>
 
-          <div class="col-md-4">
-            <label for="inputEmail4" class="form-label">
+          <div className="col-md-3">
+            <label for="inputEmail4" className="form-label">
               Email
             </label>
             <input
               placeholder="abc@xyz.com"
               type="email"
-              class="form-control"
+              className="form-control"
               id="inputEmail4"
             />
           </div>
 
-          <div class="col-md-3">
-            <label for="inputPassword4" class="form-label">
+          <div className="col-md-3">
+            <label for="inputPassword4" className="form-label">
               Password
             </label>
-            <input type="password" class="form-control" id="inputPassword4" />
+            <input
+              type="password"
+              className="form-control"
+              id="inputPassword4"
+            />
           </div>
 
-          <div class="col-md-3">
-            <label for="phone" class="form-label">
+          <div className="col-md-3">
+            <label for="phone" className="form-label">
               Phone No.
             </label>
-            <input type="tel" class="form-control" id="phone" />
+            <input type="tel" className="form-control" id="phone" />
           </div>
 
-          <div class="col-md-3">
-            <label for="date" class="form-label">
+          <div className="col-md-3">
+            <label for="date" className="form-label">
               BirthDate
             </label>
-            <input type="date" class="form-control" id="date" />
+            <input type="date" className="form-control" id="date" />
           </div>
 
-          <div class="col-md-4">
-            <label for="inputNationality" class="form-label">
+          <div className="col-md-3">
+            <label for="inputNationality" className="form-label">
               Nationality
             </label>
-            <select id="inputState" class="form-select">
+            <select id="inputState" className="form-select">
               <option selected>Choose...</option>
               <option>India</option>
               <option>Nepal</option>
@@ -73,33 +77,40 @@ export default class Customer extends Component {
             </select>
           </div>
 
-          <div class="col-md-3">
-            <label for="adhaarno" class="form-label">
+          <div className="col-md-3">
+            <label for="adhaarno" className="form-label">
               Adhaar No.
             </label>
             <input
-              placeholder="1111 22222 3333 4444"
+              placeholder="1111-2222-3333-4444"
               type="number"
-              class="form-control"
+              className="form-control"
               id="adhaarno"
             />
           </div>
 
-          <div class="col-md-3">
-            <label for="panno" class="form-label">
+          <div className="col-md-3">
+            <label for="panno" className="form-label">
               PAN No.
             </label>
-            <input type="text" class="form-control" id="panno" />
+            <input type="text" className="form-control" id="panno" />
           </div>
-          <div class="">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="gridCheck" />
-              <label class="form-check-label">Check me out</label>
+          <div className="">
+            <div className="form-check">
+              <input
+                className="form-check-input"
+                type="checkbox"
+                id="gridCheck"
+              />
+              <label className="form-check-label">Check me out</label>
             </div>
           </div>
-          <div class="">
+          <div className="">
             <button type="submit" className="btn btn-success">
               Sign in
+            </button>
+            <button type="submit" className="btn btn-primary">
+              Reset
             </button>
           </div>
         </form>

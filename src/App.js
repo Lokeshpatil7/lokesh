@@ -7,18 +7,20 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Body from "./Body";
 import Navbar from "./Navbar";
+import AboutUs from "./AboutUs";
+import Login from "./Login";
 
 function App() {
   return (
     <div className="App">
       <Header />
       <Navbar />
-      <Body />
 
       <Routes>
+        <Route path={"/home"} element={<Body />}></Route>
         <Route path={"/Application"} element={<Customer />}></Route>
-        {/* <Route path={"/home"} element={<App />}></Route> */}
-        <Route path={"/Application"} element={<Customer />}></Route>
+        <Route path={"/aboutUs"} element={<AboutUs />}></Route>
+        <Route path={"/Login"} element={<Login />}></Route>
       </Routes>
       <Footer />
     </div>

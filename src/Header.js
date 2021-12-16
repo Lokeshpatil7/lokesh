@@ -5,7 +5,10 @@ export default class Header extends Component {
   render() {
     return (
       <>
-        <h1>Home Loan</h1>
+        <div className="logo">
+          <h1 className="animated infinite heartBeat">Home Loan</h1>
+        </div>
+
         <h1>Nurture Your Home Dreams Here...</h1>
       </>
     );

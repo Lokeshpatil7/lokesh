@@ -10,9 +10,7 @@ export default class Navbar extends Component {
           <div className="row">
             <div className="col-4 col-lg-2"></div>
             <div className="col-md-8">
-              <div className="nsp_header">
-                <h1>Navbar</h1>
-              </div>
+              <div className="nsp_header"></div>
             </div>
           </div>
         </div>
